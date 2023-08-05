@@ -23,15 +23,15 @@
 // getSum (myNumber)
 
 // Odd number
-// function getTheOddNumberFrom(number){
-//     for(let i =0 ; i < number.length; i++){
-//         const index = i;
-//         const element = number[index]
-//         if(element % 2 !== 0){
-//             console.log(index, element);
-//         }
-//     }
-// }
+function getTheOddNumberFrom(number){
+    for(let i =0 ; i < number.length; i++){
+        const index = i;
+        const element = number[index]
+        if(element % 2 !== 0){
+            console.log(index, element);
+        }
+    }
+}
 
-// const myNumber = [12,65,45,78,32,45,91]
-// getTheOddNumberFrom(myNumber)
+const myNumber = [12,65,45,78,32,45,91]
+getTheOddNumberFrom(myNumber)

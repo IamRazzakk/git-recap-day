@@ -1,26 +1,19 @@
-// // !4
-// function factoriAL(){
-//     sum = 1
-//     for(let i = 1; i <= 7; i--){
-//         result = result * i
+// !4
+// function facTorial(number){
+//     sum = 4
+//     for(let i = 1; i <= number; i++){
+//        result = result * i
 //     }
-//     return sum
+//     return result
 // }
-// const result = factoriAL(7);
-// console.log(result);
-
-function calculateFactorial(number) {
-    const num = number;
-    let factorial = 1;
-
-    for (let i = 1; i <= num; i++) {
-        factorial *= i;
+// const fact= facTorial(4)
+// console.log(fact);
+function factorial(number){
+    result = 1
+    for(let i = number; i>=1; i--){
+        result = result * i;
     }
-
-    return factorial;
+    return result
 }
-
-const inputNumber = 5;
-const result = calculateFactorial(inputNumber);
-
-console.log(`${inputNumber}! = ${result}`);
+const fac = factorial(7)
+console.log(fac);

@@ -51,3 +51,17 @@
 
 
 // Home Worker
+function findTheLowestValue(number) {
+    largest = number[0]
+    for (i = 0; i <= number.length; i++) {
+        const index = i;
+        const element = number[i]
+        if(element< largest){
+            largest = element
+        }
+    }
+    return largest
+}
+const number = [102, 120, 100, 50, 180, 9220, 23]
+const arr = findTheLowestValue(number)
+console.log(arr);
